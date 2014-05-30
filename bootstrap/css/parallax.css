@@ -1,0 +1,108 @@
+.divider {
+    height:20px;
+}
+
+section {
+    padding-top:120px;
+    padding-bottom:120px;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow:auto;
+    position: relative;
+}
+
+.bg-1 {
+    background: url('../images/lingref_bg.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+    text-shadow: black 0.2em 0.1em 0.2em;
+}
+
+.btn-group {
+    text-shadow: black 0.0em 0.0em 0.0em;
+    text-align: left;
+}
+
+.jumbotron {
+    padding: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    height: ;
+}
+
+
+
+
+
+/* Social proof buttons from GitHub & Twitter */
+.bs-docs-social {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #222;
+  border-top: 1px solid #222;
+/*  border-bottom: 1px solid #ddd;*/
+}
+/* Quick links on Home */
+.bs-docs-social-buttons {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.bs-docs-social-buttons li {
+  display: inline-block;
+  padding: 5px 8px;
+  line-height: 1;
+  *display: inline;
+  *zoom: 1;
+}
+
+.bs-docs-social {
+  margin: 0 0px;
+}
+
+
+.small-jumbo {
+    background: url('../images/lingref_bg.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+    height:240px;
+    padding-top:55px;
+    padding-bottom:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow:auto;
+    text-shadow: black 0.2em 0.1em 0.2em;
+}
+
+.forum-container {
+  color:black;
+  background-color: #FFFFFF;
+  padding: 15px;
+}
+
+
+
+.widget-jumbo {
+    background: #FFFFFF;
+    padding-left: 35px;
+    padding-right: 0px;
+}
+
+
+
+
+.frontpage { 
+  background: url('../images/lingref_bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.spacer {
+  padding-left: 30px;
+}
+
