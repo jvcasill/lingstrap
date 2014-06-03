@@ -12,6 +12,9 @@
     <!-- Bootstrap core CSS -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 
+    <!-- add favicon -->
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon_ipa.ico" />
+
     <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
 
