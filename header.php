@@ -31,7 +31,7 @@
           <a class="navbar-brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
         </div>
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav">         
             <li><a href="/about">about</a></li>
             <li><a href="/forum">forum</a></li>
             <li><a href="/questions">ask questions</a></li>
@@ -46,9 +46,18 @@
               </ul>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
+
+    <!--         <div class="collapse navbar-collapse">
+                <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 
+                                          'items_wrap' => '<ul class="nav navbar-nav"><li id=""></li>%3$s</ul>' ) ); ?>
+                <?php wp_nav_menu( array( 'theme_location' => 'extra-menu', 
+                                          'items_wrap' => '<a href="" class="dropdown-toggle" data-toggle="dropdown">more<b class="caret"></b></a><ul class="dropdown-menu"><li id=""></li>%3$s</ul>' ) ); ?>
+            </div>
+          </div>
+        </div> -->
 
     <div class="small-jumbo">
       <div class="container">

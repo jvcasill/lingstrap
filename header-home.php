@@ -31,7 +31,7 @@
         <a class="navbar-brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
       </div>
       <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav">   
           <li><a href="/about">about</a></li>
           <li><a href="/forum">forum</a></li>
           <li><a href="/questions">ask questions</a></li>
