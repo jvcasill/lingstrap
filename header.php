@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php wp_title(); ?></title>
+    <title>www.lingreference.org</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">

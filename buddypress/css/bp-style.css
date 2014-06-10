@@ -1,0 +1,211 @@
+/*Buddypress customization*/
+
+
+/*Members page*/
+
+#members-dir-list img.avatar {
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+-webkit-box-shadow: 0 1px 0 #fff;
+-moz-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 #fff;
+}
+#members-dir-list a:hover img.avatar {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+-webkit-transition: -webkit-filter 0.2s ease-in-out;
+-moz-transition: -moz-filter 0.2s ease-in-out;
+transition: filter 0.2s ease-in-out;
+}
+
+
+#buddypress #members-dir-list ul.item-list li div.item-title, #buddypress #members-dir-list  ul.item-list li h4, #buddypress #members-dir-list ul.item-list li div.item-meta
+ {
+width: 100%;
+text-align: left;
+}
+#buddypress #members-dir-list ul.item-list li div.item-title {
+font-size: 120%;
+padding-top: 20px;
+}
+#buddypress #members-dir-list ul.item-list li div.item-meta {
+text-transform: uppercase;
+font-size: 80%;
+}
+#buddypress #members-dir-list ul.item-list li img.avatar {
+margin-bottom: 8px;
+}
+
+
+#buddypress #members-dir-list a.friendship-button.add {
+-webkit-border-radius: 0%;
+-moz-border-radius: 0%;
+-ms-border-radius: 0%;
+-o-border-radius: 0%;
+border-radius: 0%;
+border: 2px solid #eeeeee;
+font-size: 12px;
+background: #0000AA;
+color: #ffffff;
+line-height: 50px;
+}
+#buddypress #members-dir-list a.friendship-button.is_friend.remove {
+-webkit-border-radius: 0%;
+-moz-border-radius: 0%;
+-ms-border-radius: 0%;
+-o-border-radius: 0%;
+border-radius: 0%;
+border: 2px solid #eeeeee;
+font-size: 12px;
+background: #AA0000;
+color: #ffffff;
+line-height: 50px;
+}
+#buddypress #members-dir-list a.friendship-button.pending_friend{
+-webkit-border-radius: 0%;
+-moz-border-radius: 0%;
+-ms-border-radius: 0%;
+-o-border-radius: 0%;
+border-radius: 0%;
+border: 2px solid #eeeeee;
+font-size: 12px;
+background: #eeeeee;
+color: #AA0000;
+line-height: 50px;
+}
+
+#buddypress ul#members-list.item-list li div.action {
+text-align: right;
+overflow-y: hidden;
+top: 30px;
+right: 6px;
+}
+#buddypress ul#members-list.item-list a.friendship-button.add {
+margin-right: 40px;
+}
+#buddypress ul#members-list.item-list a.friendship-button.remove {
+margin-right: 22px;
+}
+
+
+
+
+
+/*profile page*/
+
+#item-header-avatar img.avatar {
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+-webkit-box-shadow: 0 1px 0 #fff;
+-moz-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 #fff;
+}
+#item-header-avatar a:hover img.avatar {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+-webkit-transition: -webkit-filter 0.2s ease-in-out;
+-moz-transition: -moz-filter 0.2s ease-in-out;
+transition: filter 0.2s ease-in-out;
+}
+
+#buddypress #object-nav {
+	font-size: 18px;
+}
+
+#buddypress div.item-list-tabs ul li.selected a,
+#buddypress div.item-list-tabs ul li.current a {
+	background-color: #fff !important;
+	color: #AA0000 !important;
+	opacity: .8;
+	font-weight: bold;
+}
+#buddypress div.item-list-tabs ul li.selected a span,
+#buddypress div.item-list-tabs ul li.current a span,
+#buddypress div.item-list-tabs ul li a:hover span {
+	background-color: #fff !important;
+}
+#buddypress div.item-list-tabs ul li.selected a span,
+#buddypress div.item-list-tabs ul li.current a span {
+	background-color: #fff;
+}
+
+
+#buddypress .profile {
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+
+#buddypress h4 {
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+#buddypress .label {
+	font-size: 14px;
+}
+
+#buddypress ul#topic-post-list li.alt {
+	background: #ffffff !important;
+}
+#buddypress table.notifications tr.alt td,
+#buddypress table.notifications-settings tr.alt td,
+#buddypress table.profile-settings tr.alt td,
+#buddypress table.profile-fields tr.alt td,
+#buddypress table.wp-profile-fields tr.alt td,
+#buddypress table.messages-notices tr.alt td,
+#buddypress table.forum tr.alt td {
+	background: #ffffff !important;
+}
+#buddypress div#message-thread div.alt {
+	background: #ffffff !important;
+}
+
+
+#buddypress table.notifications tr td,
+#buddypress table.notifications-settings tr td,
+#buddypress table.profile-settings tr td,
+#buddypress table.profile-fields tr td,
+#buddypress table.wp-profile-fields tr td,
+#buddypress table.messages-notices tr td,
+#buddypress table.forum tr td,
+#buddypress table.notifications tr th,
+#buddypress table.notifications-settings tr th,
+#buddypress table.profile-fields tr th,
+#buddypress table.wp-profile-fields tr th,
+#buddypress table.messages-notices tr th,
+#buddypress table.forum tr th {
+	padding: 3px !important;
+	vertical-align: middle;
+}
+#buddypress table.notifications tr td.label,
+#buddypress table.notifications-settings tr td.label,
+#buddypress table.profile-fields tr td.label,
+#buddypress table.wp-profile-fields tr td.label,
+#buddypress table.messages-notices tr td.label,
+#buddypress table.forum tr td.label {
+	border-right: 1px solid #ffffff !important;
+	font-weight: bold;
+	width: 25%;
+}
+
+/* add buttons to member friend list*/
+#buddypress #members-list a.friendship-button.is_friend.remove {
+-webkit-border-radius: 0%;
+-moz-border-radius: 0%;
+-ms-border-radius: 0%;
+-o-border-radius: 0%;
+border-radius: 0%;
+border: 2px solid #eeeeee;
+font-size: 12px;
+background: #AA0000;
+color: #ffffff;
+line-height: 50px;
+}
