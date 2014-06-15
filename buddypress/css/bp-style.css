@@ -3,7 +3,7 @@
 
 /*Members page*/
 
-#members-dir-list img.avatar {
+img.avatar {
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
 -ms-border-radius: 50%;
@@ -13,7 +13,7 @@ border-radius: 50%;
 -moz-box-shadow: 0 1px 0 #fff;
 box-shadow: 0 1px 0 #fff;
 }
-#members-dir-list a:hover img.avatar {
+a:hover img.avatar {
 -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
 filter: grayscale(100%);
@@ -97,24 +97,6 @@ margin-right: 22px;
 
 /*profile page*/
 
-#item-header-avatar img.avatar {
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
--ms-border-radius: 50%;
--o-border-radius: 50%;
-border-radius: 50%;
--webkit-box-shadow: 0 1px 0 #fff;
--moz-box-shadow: 0 1px 0 #fff;
-box-shadow: 0 1px 0 #fff;
-}
-#item-header-avatar a:hover img.avatar {
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
-filter: grayscale(100%);
--webkit-transition: -webkit-filter 0.2s ease-in-out;
--moz-transition: -moz-filter 0.2s ease-in-out;
-transition: filter 0.2s ease-in-out;
-}
 
 #buddypress #object-nav {
 	font-size: 18px;
@@ -150,6 +132,7 @@ transition: filter 0.2s ease-in-out;
 
 #buddypress .label {
 	font-size: 14px;
+	color: #000000;
 }
 
 #buddypress ul#topic-post-list li.alt {
@@ -209,3 +192,12 @@ background: #AA0000;
 color: #ffffff;
 line-height: 50px;
 }
+
+
+#dpa-leaderboard-position {
+	padding-right: 15px;
+}
+#dpa-leaderboard-name {
+	padding-right: 55px;
+}
+
