@@ -1,0 +1,1 @@
+[17-Jun-2014 12:05:21 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/lingrefe/public_html/wp-content/themes/lingstrap/index.php on line 1
